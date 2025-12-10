@@ -1,62 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spanish Lab Activities</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            text-align: center;
-            padding: 50px;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Italian Lab Activities</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f7f3;
+      margin: 0;
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+    }
 
-        h1 {
-            color: #005fa3;
-        }
+    .container {
+      max-width: 1000px;
+      width: 100%;
+      background: #f3f7f3;
+      border-radius: 20px;
+      border: 1px solid #d7e8d4;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      overflow: hidden;
+      padding: 40px;
+      text-align: center;
+    }
 
-        p {
-            font-size: 18px;
-            color: #333;
-            margin-bottom: 40px;
-        }
+    h1 {
+      font-size: 48px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      color: #333;
+    }
 
-        .lab-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
+    p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 50px;
+      line-height: 1.6;
+    }
 
-        .lab-buttons a {
-            display: inline-block;
-            padding: 20px 30px;
-            font-size: 18px;
-            color: white;
-            background-color: #0073e6;
-            text-decoration: none;
-            border-radius: 10px;
-            transition: background-color 0.3s, transform 0.2s;
-        }
+    .lab-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
 
-        .lab-buttons a:hover {
-            background-color: #005fa3;
-            transform: scale(1.05);
-        }
-    </style>
+    .lab-buttons a {
+      display: inline-block;
+      padding: 18px 35px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(145deg, #77b977, #4ca64c);
+      text-decoration: none;
+      border-radius: 30px;
+      border: none;
+      box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+      transition: background 0.5s ease, transform 0.2s, box-shadow 0.2s;
+    }
+
+    .lab-buttons a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      background: linear-gradient(145deg, #a1d7a1, #77b977); /* lighter green gradient */
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to the Spanish Lab</h1>
-    <p>Click a button below to access the Video Activity Instructions for each lab.</p>
+  <div class="container">
+    <h1>Welcome to the Italian Lab</h1>
+    <p>Click a button below to access the Video Activity Instructions for each lab. Each button will take you to a detailed page with your lab instructions, requirements, and resources.</p>
 
     <div class="lab-buttons">
-        <a href="lab-1.html">Lab 1</a>
-        <a href="lab-2.html">Lab 2</a>
-        <a href="lab-3.html">Lab 3</a>
-        <a href="lab-4.html">Lab 4</a>
-        <a href="lab-5.html">Lab 5</a>
-        <a href="lab-6.html">Lab 6</a>
+      <a href="lab-1.html">Lab 1</a>
+      <a href="lab-2.html">Lab 2</a>
+      <a href="lab-3.html">Lab 3</a>
+      <a href="lab-4.html">Lab 4</a>
+      <a href="lab-5.html">Lab 5</a>
+      <a href="lab-6.html">Lab 6</a>
     </div>
+  </div>
 </body>
 </html>
